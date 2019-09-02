@@ -1,26 +1,36 @@
-<!DOCTYPE HTML>
+!DOCTYPE html>
 <html>
-  <head>
-    <body>
+
+<head>
+   
+</head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Here</title>
+    <link rel="stylesheet" href="login.css">
+<body>
+    <nav class="mainzone">
+        <ul class="mainnav">
+            <li class="link increasefont" href="">RemDev</li>
+            <li class="push sourcefont"><a class="link" href="">Home</a></li>
+            <li class="sourcefont"><a class="link" href="dev-page.html">Browse developers</a></li>
+            <li class="pushleft sourcefont"><a class="link" href="">About Us</a></li>
+
+        </ul>
+    </nav>
+    <div class="login-page">
+        <h2 class="center">Welcome Back</h2>
+        <div class="form">
+            <form class="login-form">
+
+                <input type="email" placeholder="Email Address">
+                <input type="password" placeholder="Password">
       
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Email or Username" name="uname" required>
+                <a href="#"><button>Log in</button></a>
+              <p class="forgotpsw"><a class="login" href="forgotpsw.html">Forgot password</a></p>
+                <p class="message">New here?  <a class="login" href="Create Account.html">Create Account</a></p>
+            </form>
+        </div>
+    </div>
+</body>
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="********" name="psw" required>
-
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-     <span class="signup"><a href="#">Sign up</a></span>
-  </div>
-</form>
-    </body>
-   </head>
-</html> 
+</html>
