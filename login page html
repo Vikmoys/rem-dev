@@ -6,13 +6,16 @@
 </head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login Here</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="Login page CSS style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 <body>
     <nav class="mainzone">
         <ul class="mainnav">
-            <li class="link increasefont" href="">RemDev</li>
-            <li class="push sourcefont"><a class="link" href="">Home</a></li>
-            <li class="sourcefont"><a class="link" href="dev-page.html">Browse developers</a></li>
+            <li class="link increasefont" href="index.html">RemDev</li>
+            <li class="push sourcefont"><a class="link" href="index.html">Home</a></li>
+            <li class="sourcefont"><a class="link" href="sourcefont">Browse developers</a></li>
             <li class="pushleft sourcefont"><a class="link" href="">About Us</a></li>
 
         </ul>
